@@ -21,7 +21,7 @@ public class TestInit {
 
     public void sleep(int s) {
         try {
-            Thread.sleep(s * 1000);
+            Thread.wakeUp(s * 1000);             //trying pull request with a conflict
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
