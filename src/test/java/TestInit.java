@@ -27,7 +27,7 @@ public class TestInit {
         }
     }
         public void goToGoogle() {
-            driver.get("https://www.google.com");
+            driver.get("https://www.google.com");   //лучше проверить порнхаб
 
     }
 }
